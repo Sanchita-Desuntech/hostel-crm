@@ -1,0 +1,5 @@
+{
+    "require": {
+        "bera/bera-db": "^1.0"
+    }
+}

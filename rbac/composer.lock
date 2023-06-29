@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "52b9635ee6472f5bd2be6531241686ef",
+    "packages": [
+        {
+            "name": "bera/bera-db",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joykumarbera/bera-db.git",
+                "reference": "3cac59cdc3921974ee2e785d6c1eb02495d0509b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joykumarbera/bera-db/zipball/3cac59cdc3921974ee2e785d6c1eb02495d0509b",
+                "reference": "3cac59cdc3921974ee2e785d6c1eb02495d0509b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bera\\Db\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joy Kumar Bera",
+                    "email": "joykumarbera@gmail.com"
+                }
+            ],
+            "description": "A simple database abstraction layer",
+            "support": {
+                "issues": "https://github.com/joykumarbera/bera-db/issues",
+                "source": "https://github.com/joykumarbera/bera-db/tree/v1.0.5"
+            },
+            "time": "2023-02-01T20:11:10+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,22 @@
+  $this->form_validation->set_rules('email', 'Email', 'trim|required|is_unique[tbl_users.email]|valid_email', [
+                'is_unique' => 'The given email already exists.' // Please enter a valid email address.
+            ]);
+
+
+
+ $file_ext = pathinfo($_FILES['profile_photo']['name'], PATHINFO_EXTENSION);
+                    $newName = uniqid() . '.' . $file_ext;
+                    $upload_dir = dirname(FCPATH) . '/uploads/users/profile_photo/';
+
+                    if(move_uploaded_file( $_FILES['profile_photo']['tmp_name'], $upload_dir . $newName )) {
+                        $data_customer['profile_photo'] = $newName;
+                    }
+
+<div class="row">
+							<div class="col-md-6">
+								<h3>Add Service</h3>
+							</div>
+							<div class="col-md-6">
+								<a href="<?php echo base_url(); ?>admin/service" class="btn btn-danger flotright">Back</a>
+							</div>
+						</div>
